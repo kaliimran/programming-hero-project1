@@ -233,6 +233,7 @@ main {
 
 footer{
     background-color: #FFF8F3;
+    margin-top: 100px;
 }
 
 .social-heading {
@@ -249,11 +250,16 @@ footer{
     margin-bottom: 30px;
 }
 
-.social input, textarea {
+.social input[type="text"],input[type="email"], textarea {
     margin-top: 24px;
-    width: 461px;
+    width: 100%;
     border: 0;
     padding: 18px 30px;
+}
+
+.social .btn-primary {
+    margin-bottom: 130px;
+    margin-top: 24px;
 }
 
 
